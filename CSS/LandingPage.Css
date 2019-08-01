@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500');
 
+
 body {
   font-family: 'LibreFranklin';
   background-color: #fde5db;}
 
 
+
+  /* old styling 
 .ImgWithText{
     position: relative;
 }
@@ -21,7 +24,7 @@ body {
 
 .readmore{
     opacity:0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    filter: alpha(opacity=50);  For IE8 and earlier */
 }
 
     .card-group {
