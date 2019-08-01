@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500');
+
+body {
+  font-family: 'LibreFranklin';
+  background-color: #fde5db;}
+
+
 .ImgWithText{
     position: relative;
 }
@@ -17,6 +24,63 @@
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+    .card-group {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-gap: 16px;
+        padding: 16px;
+        grid-auto-rows: 1fr; 
+      }
+      
+.card{
+    background-color:#fde5db;
+    border: none;
+    font-family: 'LibreFranklin';
+}   
 
+.card-title{
+    font-weight: bold;
+}
 
+.btn-primary{
+    color: #fff;
+    background-color:#d2a9b8;
+    border-color:#d2a9b8;
+    
+}
 
+.ClickHere{
+    font-style: normal;
+    text-align: center;
+    color: #003a83;
+    font-family: 'LibreFranklin';
+    font-size: 25px;
+  }
+  
+  
+  .CaseStudies{
+    font-style:italic;
+    text-align: center;
+    color: #003a83;
+    font-family:'LibreFranklin';
+    font-size:25px;
+   
+  
+  }
+  
+  .LinkedIn{
+    font-style: italic; 
+    text-align: center;
+    color: #003a83;
+    font-family: 'LibreFranklin';
+    font-size: 25px;
+  }
+  
+  
+  .Behance{
+    font-style: italic; 
+    text-align: center;
+    color: #003a83;
+    font-family: 'LibreFranklin';
+    font-size: 25px;
+  }
