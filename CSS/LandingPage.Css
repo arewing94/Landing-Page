@@ -25,9 +25,18 @@ body {
 .readmore{
     opacity:0.5;
     filter: alpha(opacity=50);  For IE8 and earlier */
-}
 
-    .card-group {
+
+.blockquote{
+  blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+.card-group {
         display: grid;
         grid-template-columns: 3fr 3fr 3fr;
         grid-gap: 16px;
@@ -67,8 +76,6 @@ body {
     color: #003a83;
     font-family:'LibreFranklin';
     font-size:25px;
-   
-  
   }
   
   .LinkedIn{
