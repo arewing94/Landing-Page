@@ -26,14 +26,13 @@ body {
     opacity:0.5;
     filter: alpha(opacity=50);  For IE8 and earlier */
 
-
 .blockquote{
-  blockquote {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 40px;
     margin-right: 40px;
+    font-size: 50px;
   }
 
 .card-group {
@@ -50,8 +49,9 @@ body {
     font-family: 'LibreFranklin';
 }   
 
-.card-title{
+.card-title h5,p{
     font-weight: bold;
+    font-size:50px;
 }
 
 .btn-primary{
@@ -94,3 +94,8 @@ body {
     font-family: 'LibreFranklin';
     font-size: 25px;
   }
+  /* @media screen and (max-width: 900px){
+    .blockquote {
+      font-size: 24px;
+    } */
+
